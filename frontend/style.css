@@ -1,0 +1,34 @@
+:root{color-scheme:light;--ink:#122e2c;--accent:#235b4d;--slate:#4b615e;--line:#d5e0db;--paper:#f4f7f3}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+main{max-width:1120px;margin:0 auto;padding:48px 28px 28px}
+header{padding:30px 38px;border-radius:19px;background:#153a34;color:white}
+.eyebrow{font-size:.85rem;letter-spacing:.11em;color:#c4e7d2}
+h1{font-size:clamp(2rem,5vw,3rem);margin:9px 0 10px;letter-spacing:.02em}
+header p{margin:8px 0;color:#dcece4}
+.model{margin-top:18px!important;font-size:.88rem}
+.workspace{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:22px}
+.panel{min-width:0;background:white;border:1px solid var(--line);border-radius:16px;padding:24px}
+h2{margin:0 0 18px;font-size:1.25rem}
+h3{font-size:1rem;margin:24px 0 12px}
+.upload{display:grid;place-items:center;min-height:210px;border:2px dashed #a1beb2;border-radius:11px;background:#ecf4ee;text-align:center;color:var(--accent);cursor:pointer}
+.upload small{display:inline-block;margin-top:8px;color:var(--slate)}
+.upload img{width:100%;height:210px;object-fit:contain}
+#image{position:absolute;width:1px;height:1px;opacity:0}
+.panel:focus-within .upload{outline-offset:3px}
+.panel:has(#image:focus-visible) .upload{outline:2px solid var(--accent)}
+.filename,.timing,#status,footer{color:var(--slate);font-size:.9rem;overflow-wrap:anywhere}
+.actions,.top{display:flex;gap:12px;flex-wrap:wrap}
+button{padding:10px 16px;border-radius:8px;border:1px solid transparent;font:inherit;color:white;background:var(--accent);cursor:pointer}
+button.muted{background:#edf4ed;color:var(--accent);border-color:var(--line)}
+button:disabled{opacity:.48;cursor:default}
+.top>div{display:grid;gap:8px;padding:13px 16px;background:#ecf4ee;border-radius:8px;flex:1;min-width:130px}
+.top strong{font-size:1.45rem}
+.hint{color:var(--slate);font-size:.82rem}
+ol{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+li{display:grid;grid-template-columns:1fr auto;gap:5px 10px}
+progress{grid-column:1/-1;width:100%;height:10px;accent-color:var(--accent)}
+#status.error{color:#a62820}
+footer{margin-top:20px}
+[hidden]{display:none!important}
+@media(max-width:720px){main{padding:20px 14px}.workspace{grid-template-columns:1fr}header,.panel{padding:20px}}
