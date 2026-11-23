@@ -1,0 +1,79 @@
+{
+  "seed": 2026,
+  "archive_sha256": "b4f5b234ecb7d7ff9c6cddb046543b4717c53fd6e9815be6c0e80cc614f51b90",
+  "original_counts": {
+    "AnnualCrop": 3000,
+    "Forest": 3000,
+    "HerbaceousVegetation": 3000,
+    "Highway": 2500,
+    "Industrial": 2500,
+    "Pasture": 2000,
+    "PermanentCrop": 2500,
+    "Residential": 3000,
+    "River": 2500,
+    "SeaLake": 3000
+  },
+  "counts": {
+    "AnnualCrop": {
+      "train": 2097,
+      "val": 450,
+      "test": 450,
+      "demo": 3
+    },
+    "Forest": {
+      "train": 2097,
+      "val": 450,
+      "test": 450,
+      "demo": 3
+    },
+    "HerbaceousVegetation": {
+      "train": 2097,
+      "val": 450,
+      "test": 450,
+      "demo": 3
+    },
+    "Highway": {
+      "train": 1747,
+      "val": 375,
+      "test": 375,
+      "demo": 3
+    },
+    "Industrial": {
+      "train": 1747,
+      "val": 375,
+      "test": 375,
+      "demo": 3
+    },
+    "Pasture": {
+      "train": 1397,
+      "val": 300,
+      "test": 300,
+      "demo": 3
+    },
+    "PermanentCrop": {
+      "train": 1747,
+      "val": 375,
+      "test": 375,
+      "demo": 3
+    },
+    "Residential": {
+      "train": 2097,
+      "val": 450,
+      "test": 450,
+      "demo": 3
+    },
+    "River": {
+      "train": 1747,
+      "val": 375,
+      "test": 375,
+      "demo": 3
+    },
+    "SeaLake": {
+      "train": 2097,
+      "val": 450,
+      "test": 450,
+      "demo": 3
+    }
+  },
+  "excluded": []
+}

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+dataset/raw/
+dataset/EuroSAT_RGB.zip
+dataset/*.part
+.DS_Store
