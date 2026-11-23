@@ -1,0 +1,51 @@
+[
+  {
+    "path": "raw/AnnualCrop/AnnualCrop_2330.jpg",
+    "actual": "AnnualCrop",
+    "predicted": "AnnualCrop",
+    "confidence": "0.9916511178016663",
+    "top3": "AnnualCrop|PermanentCrop|River"
+  },
+  {
+    "path": "raw/Forest/Forest_54.jpg",
+    "actual": "Forest",
+    "predicted": "Forest",
+    "confidence": "0.9592726230621338",
+    "top3": "Forest|SeaLake|HerbaceousVegetation"
+  },
+  {
+    "path": "raw/HerbaceousVegetation/HerbaceousVegetation_205.jpg",
+    "actual": "HerbaceousVegetation",
+    "predicted": "HerbaceousVegetation",
+    "confidence": "0.9652453064918518",
+    "top3": "HerbaceousVegetation|River|PermanentCrop"
+  },
+  {
+    "path": "raw/Highway/Highway_2257.jpg",
+    "actual": "Highway",
+    "predicted": "Highway",
+    "confidence": "0.7525126934051514",
+    "top3": "Highway|River|PermanentCrop"
+  },
+  {
+    "path": "raw/Industrial/Industrial_512.jpg",
+    "actual": "Industrial",
+    "predicted": "Industrial",
+    "confidence": "0.9990842342376709",
+    "top3": "Industrial|Highway|Residential"
+  },
+  {
+    "path": "raw/Highway/Highway_422.jpg",
+    "actual": "Highway",
+    "predicted": "Industrial",
+    "confidence": "0.6066173911094666",
+    "top3": "Industrial|Highway|HerbaceousVegetation"
+  },
+  {
+    "path": "raw/PermanentCrop/PermanentCrop_1038.jpg",
+    "actual": "PermanentCrop",
+    "predicted": "HerbaceousVegetation",
+    "confidence": "0.8741035461425781",
+    "top3": "HerbaceousVegetation|PermanentCrop|Highway"
+  }
+]

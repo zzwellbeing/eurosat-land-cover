@@ -1,0 +1,195 @@
+{
+  "experiment": "cnn_lr003",
+  "epoch": 8,
+  "n": 4050,
+  "loss": 0.399087419156675,
+  "top1": 0.8607407407407407,
+  "top3": 0.9837037037037037,
+  "macro_f1": 0.8556454831342721,
+  "classes": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "confusion": [
+    [
+      367,
+      4,
+      20,
+      6,
+      0,
+      26,
+      14,
+      2,
+      9,
+      2
+    ],
+    [
+      0,
+      426,
+      6,
+      0,
+      0,
+      12,
+      0,
+      0,
+      2,
+      4
+    ],
+    [
+      1,
+      2,
+      390,
+      2,
+      4,
+      9,
+      15,
+      18,
+      8,
+      1
+    ],
+    [
+      15,
+      0,
+      16,
+      259,
+      15,
+      4,
+      18,
+      29,
+      19,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      3,
+      345,
+      0,
+      1,
+      22,
+      0,
+      0
+    ],
+    [
+      3,
+      10,
+      8,
+      2,
+      0,
+      267,
+      7,
+      0,
+      3,
+      0
+    ],
+    [
+      8,
+      0,
+      38,
+      16,
+      4,
+      9,
+      293,
+      5,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      4,
+      0,
+      1,
+      444,
+      0,
+      0
+    ],
+    [
+      8,
+      2,
+      10,
+      40,
+      2,
+      20,
+      5,
+      2,
+      285,
+      1
+    ],
+    [
+      7,
+      27,
+      3,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      410
+    ]
+  ],
+  "per_class": {
+    "AnnualCrop": {
+      "support": 450,
+      "correct": 367,
+      "recall": 0.8155555555555556
+    },
+    "Forest": {
+      "support": 450,
+      "correct": 426,
+      "recall": 0.9466666666666667
+    },
+    "HerbaceousVegetation": {
+      "support": 450,
+      "correct": 390,
+      "recall": 0.8666666666666667
+    },
+    "Highway": {
+      "support": 375,
+      "correct": 259,
+      "recall": 0.6906666666666667
+    },
+    "Industrial": {
+      "support": 375,
+      "correct": 345,
+      "recall": 0.92
+    },
+    "Pasture": {
+      "support": 300,
+      "correct": 267,
+      "recall": 0.89
+    },
+    "PermanentCrop": {
+      "support": 375,
+      "correct": 293,
+      "recall": 0.7813333333333333
+    },
+    "Residential": {
+      "support": 450,
+      "correct": 444,
+      "recall": 0.9866666666666667
+    },
+    "River": {
+      "support": 375,
+      "correct": 285,
+      "recall": 0.76
+    },
+    "SeaLake": {
+      "support": 450,
+      "correct": 410,
+      "recall": 0.9111111111111111
+    }
+  }
+}

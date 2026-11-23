@@ -1,0 +1,26 @@
+{
+  "valid": [
+    {
+      "file": "Forest_1088.jpg",
+      "label": "森林",
+      "probability": 0.867247998714447,
+      "inference_ms": 1.11
+    },
+    {
+      "file": "River_2494.jpg",
+      "label": "河流",
+      "probability": 0.9867082834243774,
+      "inference_ms": 0.47
+    },
+    {
+      "file": "Residential_2098.jpg",
+      "label": "住宅区",
+      "probability": 0.9769653081893921,
+      "inference_ms": 0.37
+    }
+  ],
+  "missing": 400,
+  "bad": 400,
+  "gif": 415,
+  "large": 413
+}

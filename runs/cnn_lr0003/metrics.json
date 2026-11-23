@@ -1,0 +1,85 @@
+{
+  "experiment": "cnn_lr0003",
+  "seed": 2026,
+  "epochs": 8,
+  "batch_size": 256,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "optimizer": "AdamW",
+  "parameters": 77666,
+  "device": "cpu",
+  "threads": 4,
+  "python": "3.12.14",
+  "torch": "2.7.1",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "seconds": 50.53,
+  "history": [
+    {
+      "epoch": 1,
+      "Loss/train": 1.5772417041569333,
+      "Loss/val": 1.08317430584519,
+      "Accuracy/train": 0.47673555908850024,
+      "Accuracy/val": 0.6377777777777778,
+      "LearningRate": 0.0003
+    },
+    {
+      "epoch": 2,
+      "Loss/train": 0.9674828128013652,
+      "Loss/val": 0.7735983622074127,
+      "Accuracy/train": 0.6701112877583466,
+      "Accuracy/val": 0.7316049382716049,
+      "LearningRate": 0.0003
+    },
+    {
+      "epoch": 3,
+      "Loss/train": 0.7721442544213918,
+      "Loss/val": 0.6547790787985296,
+      "Accuracy/train": 0.7301536830948596,
+      "Accuracy/val": 0.7661728395061729,
+      "LearningRate": 0.0003
+    },
+    {
+      "epoch": 4,
+      "Loss/train": 0.6815450800873959,
+      "Loss/val": 0.587957732324247,
+      "Accuracy/train": 0.7611022787493376,
+      "Accuracy/val": 0.7918518518518518,
+      "LearningRate": 0.0003
+    },
+    {
+      "epoch": 5,
+      "Loss/train": 0.6374832648098879,
+      "Loss/val": 0.584886341492335,
+      "Accuracy/train": 0.7776894541600424,
+      "Accuracy/val": 0.7928395061728395,
+      "LearningRate": 0.0003
+    },
+    {
+      "epoch": 6,
+      "Loss/train": 0.5793078697984915,
+      "Loss/val": 0.5192113841683776,
+      "Accuracy/train": 0.7987281399046104,
+      "Accuracy/val": 0.8177777777777778,
+      "LearningRate": 0.0003
+    },
+    {
+      "epoch": 7,
+      "Loss/train": 0.5525130515068248,
+      "Loss/val": 0.5338238829889416,
+      "Accuracy/train": 0.809220985691574,
+      "Accuracy/val": 0.8081481481481482,
+      "LearningRate": 0.0003
+    },
+    {
+      "epoch": 8,
+      "Loss/train": 0.5258505684961765,
+      "Loss/val": 0.5004697520497404,
+      "Accuracy/train": 0.8143614202437732,
+      "Accuracy/val": 0.8202469135802469,
+      "LearningRate": 0.0003
+    }
+  ],
+  "best_epoch": 8,
+  "best_val_accuracy": 0.8202469135802469,
+  "best_val_loss": 0.5004697520497404
+}
